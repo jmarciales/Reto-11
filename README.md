@@ -8,53 +8,51 @@
    es_yagami = nombre.endswith("Yagami")  # Devuelve True
    ```
 - **startswith** <br>
-  Evalua si la cadena empieza con una subcadena:
+  Verifica si una cadena comienza con un prefijo específico.
   ```python
-  "Hola mundo".startswith("Mola")
-  #False
+  detective = "L Lawliet"
+  empieza_con_l = detective.startswith("L")  # Devuelve True
    ``` 
 - **isalpha** <br>
-  Devuelve True si la cadena es todo carácteres alfabéticos:
+Verifica si todos los caracteres son alfabéticos (letras).
   ```python
-  c = "ABC10034po"
-  c.isalpha()
-  #False
+  nombre_kira = "Kira"
+  solo_letras = nombre_kira.isalpha()  # Devuelve True
    ``` 
 - **isalnum** <br>
-  Devuelve True si la cadena es todo números o carácteres alfabéticos:
+ Verifica si todos los caracteres son alfanuméricos (letras o números).
   ```python
-  c = "ABC10034po"
-  c.isalnum()
-  #True
+  codigo = "Death123"
+  alfanumerico = codigo.isalnum()  # Devuelve True
    ```
 - **isdigit** <br>
-  Evalua si la cadena propuesta es todo números (False or True):
+ Verifica si todos los caracteres son dígitos.
   ```python
-  c = "100"
-  c.isdigit()
+  victimas = "40"
+  solo_numeros = victimas.isdigit()  # Devuelve True
   #True
    ```  
 - **isspace** <br>
-  Devuelve True si la cadena es todo espacios:
+ Verifica si todos los caracteres son espacios en blanco.
   ```python
-  "  -  ".isspace()
-  #False
+  espacio = "   "
+  solo_espacios = espacio.isspace()  # Devuelve True
    ```  
 - **istitle** <br>
-  Evalua si la primera letra de cada palabra es mayúscula, si es así devuelve True:
+Verifica si la cadena sigue el formato de título (primera letra de cada palabra en mayúscula).
   ```python
-  "Hola Mundo".istitle()
-  #True
+  titulo = "Death Note"
+  formato_titulo = titulo.istitle()  # Devuelve True
    ```  
 - **islower** <br>
-  Devuelve True si la cadena es todo minúsculas:
+Verifica si todos los caracteres están en minúsculas.
   ```python
-  "Hola mundo".islower()
-  #False
+  mensaje = "kira es justicia"
+  todo_minusculas = mensaje.islower()  # Devuelve True
    ```  
 - **isupper** <br>
-  Evalua si la cadena es todo mayúsculas:
+Verifica si todos los caracteres están en mayúsculas:
   ```python
-  "Hola mundo".isupper()
-  #False
+  grito = "SHINIGAMI"
+  todo_mayusculas = grito.isupper()  # Devuelve True
    ```  
