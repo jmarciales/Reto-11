@@ -4,8 +4,8 @@
 - **endswith** <br>
  Verifica si una cadena termina con un sufijo específico.
    ```python
-nombre = "Light Yagami"
-es_yagami = nombre.endswith("Yagami")  # Devuelve True
+   nombre = "Light Yagami"
+   es_yagami = nombre.endswith("Yagami")  # Devuelve True
    ```
 - **startswith** <br>
   Evalua si la cadena empieza con una subcadena:
